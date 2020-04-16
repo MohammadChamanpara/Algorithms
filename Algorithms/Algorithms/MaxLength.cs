@@ -5,7 +5,7 @@ class MaxLength
 {
     public static void Run()
     {
-        Console.WriteLine(FindMaxLength(new int[] { 0, 0, 1, 0, 0, 0, 1, 1 }));
+        Console.WriteLine(new MaxLength().FindMaxLength(new int[] { 0, 0, 1, 0, 0, 0, 1, 1 }));
     }
 
     public static int FindMaxLength_On2(int[] nums)
