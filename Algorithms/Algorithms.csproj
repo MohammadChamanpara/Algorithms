@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\StringShift.cs" />
     <Compile Include="Algorithms\Palidrome.cs" />
     <Compile Include="Algorithms\Pocker.cs" />
     <Compile Include="Algorithms\Wizards.cs" />

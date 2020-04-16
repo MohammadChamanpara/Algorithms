@@ -7,7 +7,8 @@
             //Pocker.Run();
             //Palidrome.Run();
             //Wizards.Run();
-            MaxLength.Run();
+            //MaxLength.Run();
+            StringShifter.Run();
         }
     }
 }
