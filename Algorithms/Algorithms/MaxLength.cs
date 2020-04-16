@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Linq;
 
 class MaxLength
 {
     public static void Run()
     {
-        Console.WriteLine(FindMaxLength(new int[] { 1, 0, 0, 1 }));
+        Console.WriteLine(FindMaxLength(new int[] { 0, 0, 1, 0, 0, 0, 1, 1 }));
     }
 
-    public static int FindMaxLength(int[] nums)
+    public static int FindMaxLength_On2(int[] nums)
     {
         int max = 0;
         for (int i = 0; i < nums.Length; i++)
@@ -28,6 +29,22 @@ class MaxLength
                         max = lenght;
                 }
             }
+        }
+        return max;
+    }
+    public int FindMaxLength(int[] nums)
+    {
+        int max = 0;
+        int?[] firstIndex = new int?[2 * nums.Length + 1];
+        int count = 0;
+        firstIndex[nums.Length + count] = -1;
+        for (int i = 0; i < nums.Length; i++)
+        {
+            count += (nums[i] == 0) ? -1 : 1;
+            if (firstIndex[nums.Length + count].HasValue)
+                max = Math.Max(max, i - firstIndex[nums.Length + count].Value);
+            else
+                firstIndex[nums.Length + count] = i;
         }
         return max;
     }
