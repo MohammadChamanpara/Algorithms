@@ -13,7 +13,8 @@
             //BreakChain.Run();
             //WordMachine.Run();
             //ValidParenthesis.Run();
-            Islands.Run();
+            //Islands.Run();
+            MinPathInGrid.Run();
         }
     }
 }
