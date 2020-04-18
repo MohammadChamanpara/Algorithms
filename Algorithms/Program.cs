@@ -10,8 +10,8 @@
             //MaxLength.Run();
             //StringShifter.Run();
             //ArrayProductExceptSelf.Run();
-            //BreakChain.Run();
-            WordMachine.Run();
+            BreakChain.Run();
+            //WordMachine.Run();
         }
     }
 }

@@ -5,33 +5,35 @@ public class BreakChain
 {
     public static void Run()
     {
-        //var array1 = Enumerable.Repeat(100000, (int)Math.Pow(10, 8)).ToArray();
+        var array1 = Enumerable.Repeat(100000, (int)Math.Pow(10, 8)).ToArray();
         var array2 = new int[] { 5, 3, 1, 4, 2, 5 };
-        Console.WriteLine(new BreakChain().solution(array2));
+        var array3 = new int[] { 5, 3, 1, 4, 4 };
+        Console.WriteLine(new BreakChain().solution(array1));
+        Console.WriteLine(new BreakChain().solution(array3));
     }
     public int solution(int[] A)
     {
-        /* -- Sample Input [5,3,1,3,8,5] -- */
+        /* -- Sample Input [ 5 , 3 , 1 , 3 , 8 , 5 ] -- */
 
-        if (A?.Length < 5)
+        if (A == null || A.Length < 5)
             return -1;
 
-        /* -- Weakest link and its pair (1,8)  -- */
+        /* -- Weakest link and its other breaking point (1,8)  -- */
 
-        int minIndex = FindMin(A); 
-        int pairIndex1 = FindMin(A, minIndex - 1, minIndex, minIndex + 1); 
-        int cost1 = (pairIndex1 != -1) ? A[minIndex] + A[pairIndex1] : int.MaxValue; 
+        int weakestLink = FindMin(A);
+        int breakingPoint = FindMin(A, weakestLink - 1, weakestLink, weakestLink + 1);
+        int cost1 = (breakingPoint != -1) ? A[weakestLink] + A[breakingPoint] : int.MaxValue;
 
 
-        /* -- Second weakest link and its pair (3,3)  -- */
+        /* -- Second weakest link and its other breaking point (3,3)  -- */
 
-        int secondMinIndex = FindMin(A, minIndex); 
+        int secondWeakestLink = FindMin(A, weakestLink);
 
-        if (A[secondMinIndex] >= cost1)
+        if (A[secondWeakestLink] >= cost1)
             return cost1;
 
-        int pairIndex2 = FindMin(A, secondMinIndex - 1, secondMinIndex, secondMinIndex + 1); 
-        int cost2 = (pairIndex2 != -1) ? A[secondMinIndex] + A[pairIndex2] : int.MaxValue; 
+        breakingPoint = FindMin(A, secondWeakestLink - 1, secondWeakestLink, secondWeakestLink + 1);
+        int cost2 = (breakingPoint != -1) ? A[secondWeakestLink] + A[breakingPoint] : int.MaxValue;
 
         /* -- Best (3,3) -- */
         return Math.Min(cost1, cost2);
