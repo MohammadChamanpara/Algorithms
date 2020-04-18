@@ -8,7 +8,8 @@
             //Palidrome.Run();
             //Wizards.Run();
             //MaxLength.Run();
-            StringShifter.Run();
+            //StringShifter.Run();
+            ArrayProductExceptSelf.Run();
         }
     }
 }
