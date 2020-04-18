@@ -9,7 +9,9 @@
             //Wizards.Run();
             //MaxLength.Run();
             //StringShifter.Run();
-            ArrayProductExceptSelf.Run();
+            //ArrayProductExceptSelf.Run();
+            //BreakChain.Run();
+            WordMachine.Run();
         }
     }
 }

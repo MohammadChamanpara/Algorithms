@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\WordMachine.cs" />
+    <Compile Include="Implementations\BreakChain.cs" />
     <Compile Include="Implementations\ProductExceptSelf.cs" />
     <Compile Include="Implementations\StringShift.cs" />
     <Compile Include="Implementations\Palidrome.cs" />
     <Compile Include="Implementations\Pocker.cs" />
-    <Compile Include="Implementations\Susquehanna.cs" />
     <Compile Include="Implementations\Wizards.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
