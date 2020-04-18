@@ -10,8 +10,9 @@
             //MaxLength.Run();
             //StringShifter.Run();
             //ArrayProductExceptSelf.Run();
-            BreakChain.Run();
+            //BreakChain.Run();
             //WordMachine.Run();
+            ValidParenthesis.Run();
         }
     }
 }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\ValidParenthesis.cs" />
     <Compile Include="Implementations\WordMachine.cs" />
     <Compile Include="Implementations\BreakChain.cs" />
     <Compile Include="Implementations\ProductExceptSelf.cs" />
