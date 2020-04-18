@@ -14,7 +14,8 @@
             //WordMachine.Run();
             //ValidParenthesis.Run();
             //Islands.Run();
-            MinPathInGrid.Run();
+            //MinPathInGrid.Run();
+            FindTwoSum.Run();
         }
     }
 }
