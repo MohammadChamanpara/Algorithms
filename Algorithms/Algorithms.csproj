@@ -43,14 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\ProductExceptSelf.cs" />
-    <Compile Include="Algorithms\StringShift.cs" />
-    <Compile Include="Algorithms\Palidrome.cs" />
-    <Compile Include="Algorithms\Pocker.cs" />
-    <Compile Include="Algorithms\Wizards.cs" />
+    <Compile Include="Implementations\ProductExceptSelf.cs" />
+    <Compile Include="Implementations\StringShift.cs" />
+    <Compile Include="Implementations\Palidrome.cs" />
+    <Compile Include="Implementations\Pocker.cs" />
+    <Compile Include="Implementations\Susquehanna.cs" />
+    <Compile Include="Implementations\Wizards.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Algorithms\MaxLength.cs" />
+    <Compile Include="Implementations\MaxLength.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
