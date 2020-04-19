@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\Banners.cs" />
+    <Compile Include="Implementations\Frogs.cs" />
+    <Compile Include="Implementations\DisplayFoodTable.cs" />
+    <Compile Include="Implementations\ReformatLetterDigits.cs" />
     <Compile Include="Implementations\TwoSum.cs" />
     <Compile Include="Implementations\MinPathInGrid.cs" />
     <Compile Include="Implementations\Islands.cs" />
