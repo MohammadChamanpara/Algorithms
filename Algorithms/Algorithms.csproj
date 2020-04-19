@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\Banners.cs" />
     <Compile Include="Implementations\TwoSum.cs" />
     <Compile Include="Implementations\MinPathInGrid.cs" />
     <Compile Include="Implementations\Islands.cs" />

@@ -15,7 +15,9 @@
             //ValidParenthesis.Run();
             //Islands.Run();
             //MinPathInGrid.Run();
-            FindTwoSum.Run();
+            //FindTwoSum.Run();
+            Banners.Run();
+
         }
     }
 }
