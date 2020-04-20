@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            RotatedBinarySearch.Run();
+            BuildBSTFromPreOrder.Run();
         }
     }
 }

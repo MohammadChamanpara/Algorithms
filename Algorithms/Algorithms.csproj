@@ -46,6 +46,7 @@
     <Compile Include="Implementations\Banners.cs" />
     <Compile Include="Implementations\Frogs.cs" />
     <Compile Include="Implementations\DisplayFoodTable.cs" />
+    <Compile Include="Implementations\BuildBSTFromPreOrder.cs" />
     <Compile Include="Implementations\RotatedBinarySearch.cs" />
     <Compile Include="Implementations\ReformatLetterDigits.cs" />
     <Compile Include="Implementations\TwoSum.cs" />
