@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Sum2NumbersLinkedList.Run();
+            LongestSubstring.Run();
         }
     }
 }
