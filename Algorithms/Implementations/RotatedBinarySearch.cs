@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 class RotatedBinarySearch
 {
@@ -21,7 +20,7 @@ class RotatedBinarySearch
 
     private int BinarySearch(int[] nums, int target, int from, int to, int actualStart)
     {
-        if (from > to)
+            if (from > to)
             return -1;
 
         int mid = (from + to) / 2;
