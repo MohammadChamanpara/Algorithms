@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            BuildBSTFromPreOrder.Run();
+            Sum2NumbersLinkedList.Run();
         }
     }
 }
