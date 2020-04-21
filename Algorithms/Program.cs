@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Algorithms
+﻿namespace Algorithms
 {
     class Program
     {
         static void Main(string[] args)
         {
-            LongestSubstring.Run();
+            FindMedianSorted.Run();
         }
     }
 }
