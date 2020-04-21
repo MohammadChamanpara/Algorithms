@@ -47,6 +47,7 @@
     <Compile Include="Implementations\ReverseInt.cs" />
     <Compile Include="Implementations\FindMedianSorted.cs" />
     <Compile Include="Implementations\LongestSubstring.cs" />
+    <Compile Include="Implementations\PalindromNumber.cs" />
     <Compile Include="Implementations\_Empty.cs" />
     <Compile Include="Implementations\Sum2NumbersLinkedList.cs" />
     <Compile Include="Implementations\Frogs.cs" />
