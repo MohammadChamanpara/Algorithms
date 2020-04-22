@@ -55,6 +55,7 @@
     <Compile Include="Implementations\MergeSortedLinkedLists.cs" />
     <Compile Include="Implementations\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Implementations\RemoveElement.cs" />
+    <Compile Include="Implementations\FindInsertPosition.cs" />
     <Compile Include="Implementations\_Empty.cs" />
     <Compile Include="Implementations\Sum2NumbersLinkedList.cs" />
     <Compile Include="Implementations\Frogs.cs" />
