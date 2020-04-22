@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class Empty
+class LeftMostColumn
 {
     public static void Run()
     {
