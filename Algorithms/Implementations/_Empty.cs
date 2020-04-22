@@ -10,8 +10,4 @@ class Empty
         //Console.WriteLine(new Solution().XXXX(123));
     }
 
-    public class Solution
-    {
-
-    }
 }
