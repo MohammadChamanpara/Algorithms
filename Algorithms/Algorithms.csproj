@@ -51,6 +51,7 @@
     <Compile Include="Implementations\RomanNumberToInt.cs" />
     <Compile Include="Implementations\LongestPrefix.cs" />
     <Compile Include="Implementations\Parenthesis.cs" />
+    <Compile Include="Implementations\OneInMatrix.cs" />
     <Compile Include="Implementations\_Empty.cs" />
     <Compile Include="Implementations\Sum2NumbersLinkedList.cs" />
     <Compile Include="Implementations\Frogs.cs" />
@@ -62,8 +63,8 @@
     <Compile Include="Implementations\MinPathInGrid.cs" />
     <Compile Include="Implementations\Islands.cs" />
     <Compile Include="Implementations\ValidParenthesis.cs" />
-    <Compile Include="Implementations\WordMachine.cs" />
-    <Compile Include="Implementations\BreakChain.cs" />
+    <Compile Include="Implementations\SIG_WordMachine.cs" />
+    <Compile Include="Implementations\SIG_BreakChain.cs" />
     <Compile Include="Implementations\ProductExceptSelf.cs" />
     <Compile Include="Implementations\StringShift.cs" />
     <Compile Include="Implementations\Palidrome.cs" />
