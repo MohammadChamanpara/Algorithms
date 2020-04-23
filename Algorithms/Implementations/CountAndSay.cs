@@ -7,7 +7,7 @@ class CountAndSay
 {
     public static void Run()
     {
-        Console.WriteLine(new Solution().CountAndSay(30));
+        Console.WriteLine(new Solution().CountAndSay(5));
     }
     public class Solution
     {
